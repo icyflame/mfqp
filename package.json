@@ -1,0 +1,23 @@
+{
+  "name": "mfqp",
+  "version": "1.0.0",
+  "description": "[Website](http://metakgp.github.io/mfqp/) for Question Paper Search",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metakgp/mfqp.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/metakgp/mfqp/issues"
+  },
+  "homepage": "https://github.com/metakgp/mfqp#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jsonminify": "^1.0.0"
+  }
+}
