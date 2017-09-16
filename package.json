@@ -18,6 +18,7 @@
   "homepage": "https://github.com/metakgp/mfqp#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-gh-pages": "^0.5.4",
     "gulp-jsonminify": "^1.0.0"
   }
 }

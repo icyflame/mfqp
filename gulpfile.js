@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var minifyJSON = require('gulp-jsonminify');
+var ghPages = require('gulp-gh-pages');
 
 var fs = require('fs');
 
@@ -25,3 +26,11 @@ gulp.task('copy', function () {
 });
 
 gulp.task('default', [ 'json', 'copy' ]);
+
+gulp.task('deploy', function() {
+  return gulp.src('./dist/**/*')
+  .pipe(ghPages({
+    origin: 'icyflame',
+    message: `Built at ${new Date()}`
+  }));
+});
